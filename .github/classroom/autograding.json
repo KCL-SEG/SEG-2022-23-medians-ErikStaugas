@@ -15,7 +15,7 @@
       "setup": "",
       "run": "python median.py",
       "input": "8,789,2,9,391",
-      "output": "^(.|\\n)*9\\.0\\s*\\n?$",
+      "output": "^(.|\\n)*2\\.0\\s*\\n?$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -25,7 +25,7 @@
       "setup": "",
       "run": "python median.py",
       "input": "6,7,9,4658,2365,1,1,1",
-      "output": "^(.|\\n)*6\\.5\\s*\\n?$",
+      "output": "^(.|\\n)*3511\\.5\\s*\\n?$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
@@ -35,7 +35,7 @@
       "setup": "",
       "run": "python median.py",
       "input": "2,2,2,9,9,9,9,2,2,2",
-      "output": "^(.|\\n)*2\\.0\\s*\\n?$",
+      "output": "^(.|\\n)*9\\.0\\s*\\n?$",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
